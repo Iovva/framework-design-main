@@ -1,13 +1,13 @@
-```# React Hooks Proof of Concept
+# React Hooks Proof of Concept
 
-## Prerequisites
+## 0. Prerequisites
 Before getting started, ensure you have the following software installed on your machine:
 
 - **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
 - **npm**: Node package manager, which is used for managing project dependencies. Typically, npm is installed along with Node.js.
 - **Git CLI**: Command-line interface for Git, used for cloning repositories and managing version control.
 
-## Installation
+## 1. Installation
 
 To set up the project locally, follow these steps:
 
@@ -24,7 +24,7 @@ To set up the project locally, follow these steps:
    npm install
    ```
 
-## Running the Application
+## 2. Running the Application
 
 To run the application, use the following command in your terminal:
 ```bash
@@ -35,12 +35,12 @@ This command starts the development server. Once the server is running, you can 
 http://localhost:3000/
 ```
 
-## Understanding Hooks
+## 3. Understanding Hooks
 
-### Overview
+### 3.1 Overview
 React Hooks are functions that let you "hook into" React state and lifecycle features from function components. They allow you to use state and other React features without writing a class.
 
-### Key Hooks
+### 3.2 Key Hooks
 - **useState**: Allows you to add state to your functional components.
   ```javascript
   const [state, setState] = useState(initialState);
@@ -56,16 +56,10 @@ React Hooks are functions that let you "hook into" React state and lifecycle fea
   const value = useContext(MyContext);
   ```
 
-## What This Application Offers
+## 4/ What This Application Offers
 
 This application provides several basic examples demonstrating the use of the following React Hooks:
 
 - **useEffect**: Learn how to manage side effects in your components, such as data fetching or manually manipulating the DOM.
 - **useState**: Understand how to add and manage state within functional components.
 - **useContext**: Explore how to use context to manage and share state across different parts of your application without prop drilling.
-
-Each example is designed to be simple and easy to understand, providing a clear and practical introduction to using React Hooks in your own projects.
-
----
-
-Feel free to explore the code, modify it, and see how these hooks can simplify your React development process! If you have any questions or encounter any issues, please refer to the official React documentation or reach out to the community for support.```

@@ -56,7 +56,7 @@ React Hooks are functions that let you "hook into" React state and lifecycle fea
   const value = useContext(MyContext);
   ```
 
-## 4/ What This Application Offers
+## 4. What This Application Offers
 
 This application provides several basic examples demonstrating the use of the following React Hooks:
 

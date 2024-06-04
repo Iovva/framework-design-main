@@ -45,7 +45,7 @@ React Hooks are functions that let you "hook into" React state and lifecycle fea
   ```javascript
   const [state, setState] = useState(initialState);
   ```
-- **useEffect**: Performs side effects in function components, such as data fetching, subscriptions, or manually changing the DOM.
+- **useEffect**: Performs side effects in function components, such as data fetching
   ```javascript
   useEffect(() => {
     // Your side effect code here
@@ -60,6 +60,6 @@ React Hooks are functions that let you "hook into" React state and lifecycle fea
 
 This application provides several basic examples demonstrating the use of the following React Hooks:
 
-- **useEffect**: Learn how to manage side effects in your components, such as data fetching or manually manipulating the DOM.
-- **useState**: Understand how to add and manage state within functional components.
-- **useContext**: Explore how to use context to manage and share state across different parts of your application without prop drilling.
+- **useEffect**; 
+- **useState**; 
+- **useContext**

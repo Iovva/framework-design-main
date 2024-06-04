@@ -32,7 +32,7 @@ npm run start
 ```
 This command starts the development server. Once the server is running, you can access the application in your web browser at:
 ```
-http://localhost:3000/
+http://localhost:8000/
 ```
 
 ## 3. Understanding Hooks
